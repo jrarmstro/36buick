@@ -1,0 +1,134 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #DDD;
+	position: relative;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 50px; /** the height of the footer */
+}
+
+footer {
+	width: 100%;
+	background-color: #C00;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	
+	height: 50px;
+	line-height: 50px; /** center the text vertically */
+	
+	border-top: 1px solid;
+	border-top-color: #FFF;
+}
+
+footer p {
+	font-size: 25px;
+	color: #FFF;
+	margin: 0;
+}
+
+footer a {
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	margin: 0;
+}
+
+h2 {
+	font-size: 25px;
+	text-align: center;
+	margin: 0;
+}
+
+p {
+	font-size: 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#title {
+	background-color: #E00;
+	margin: 0;
+	padding: 10px;
+	padding-left: 40px;
+}
+
+#title p {
+	font-size: 45px;
+	margin: 0;
+	text-decoration: none;
+	color: white;
+}
+
+#content-outer {
+	padding: 25px;
+}
+
+#content-inner {
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 12px;
+	max-width: 80%;
+	background-color: #FFF;
+	overflow: hidden;
+}
+
+.gallery {
+	margin: 20px 10px 0 10px;
+	width: auto;
+	padding: 10px;
+	border: 2px dotted #AAA;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.thumbnail {
+	margin: 5px;
+	border: 1px solid #CCC;
+	width: auto;
+	max-width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.thumbnail:hover {
+	border: 1px solid #777;
+}
+
+.thumbnail img {
+	width: 100%;
+	display: block;
+}
+
+.iframe-outer {
+	margin: 5px;
+	position: relative;
+	max-width: 100%;
+	height: 0px;
+	padding-bottom: 56.25%;
+}
+
+iframe {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.pre-footer {
+	font-size: 12px;
+	text-align: right;
+	margin: 0 5px 0 0;
+}
