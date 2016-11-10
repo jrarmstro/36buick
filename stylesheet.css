@@ -1,5 +1,13 @@
 html {
 	height: 100%;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+	html {
+		font-size: 9px;
+	}
 }
 
 body {
@@ -9,7 +17,7 @@ body {
 	min-height: 100%;
 	margin: 0;
 	padding: 0;
-	margin-bottom: 50px; /** the height of the footer */
+	margin-bottom: 2em; /** the height of the footer */
 }
 
 footer {
@@ -21,15 +29,15 @@ footer {
 	right: 0;
 	left: 0;
 	
-	height: 50px;
-	line-height: 50px; /** center the text vertically */
+	height: 2.5em;
+	line-height: 2.5em; /** center the text vertically */
 	
 	border-top: 1px solid;
 	border-top-color: #FFF;
 }
 
 footer p {
-	font-size: 25px;
+	font-size: 150%;
 	color: #FFF;
 	margin: 0;
 }
@@ -41,31 +49,31 @@ footer a {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 240%;
 	text-align: center;
 	margin: 0;
 }
 
 h2 {
-	font-size: 25px;
+	font-size: 150%;
 	text-align: center;
 	margin: 0;
 }
 
 p {
-	font-size: 20px;
+	font-size: 100%;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 #title {
 	background-color: #804040;
 	margin: 0;
-	padding: 10px;
-	padding-left: 40px;
+	padding: 0.75em;
+	padding-left: 2.5em;
 }
 
 #title p {
-	font-size: 45px;
+	font-size: 200%;
 	margin: 0;
 	text-decoration: none;
 	color: white;
@@ -73,7 +81,7 @@ p {
 
 #content-outer {
 	margin: 0 auto;
-	padding: 25px;
+	padding: 1em 2% 1em 2%;
 	max-width: 1400px;
 }
 
@@ -108,13 +116,13 @@ img {
 	vertical-align: top;
 }
 
-@media screen and (min-width: 700px) {
+@media (min-width: 700px) {
 	.thumbnail {
 		width: calc(50% - 15px);
 	}
 }
 
-@media screen and (min-width: 1100px) {
+@media (min-width: 1100px) {
 	.thumbnail {
 		width: calc(33.33% - 15px);
 	}
