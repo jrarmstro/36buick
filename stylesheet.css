@@ -86,6 +86,11 @@ p {
 	overflow: hidden;
 }
 
+img {
+	max-width: 100%; 
+	display: block;
+}
+
 .gallery {
 	margin: 20px 10px 0 10px;
 	width: auto;
@@ -98,10 +103,21 @@ p {
 .thumbnail {
 	margin: 5px;
 	border: 1px solid #CCC;
-	width: auto;
-	max-width: 100%;
+	width: calc(100% - 10px);
 	display: inline-block;
 	vertical-align: top;
+}
+
+@media screen and (min-width: 700px) {
+	.thumbnail {
+		width: calc(50% - 15px);
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.thumbnail {
+		width: calc(33.33% - 15px);
+	}
 }
 
 .thumbnail:hover {
@@ -109,9 +125,9 @@ p {
 }
 
 .thumbnail img {
-	max-width: 100%;
-	display: block;
+	width: 100%;
 }
+
 
 .iframe-outer {
 	margin: 5px;
