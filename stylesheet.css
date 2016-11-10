@@ -14,7 +14,7 @@ body {
 
 footer {
 	width: 100%;
-	background-color: #C00;
+	background-color: #804040;
 	text-align: center;
 	position: fixed;
 	bottom: 0;
@@ -58,7 +58,7 @@ p {
 }
 
 #title {
-	background-color: #E00;
+	background-color: #804040;
 	margin: 0;
 	padding: 10px;
 	padding-left: 40px;
