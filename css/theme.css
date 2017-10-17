@@ -1,161 +1,45 @@
-html {
-	height: 100%;
-	font-size: 16px;
-	line-height: 1.5;
-}
-
 body {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	background-color: #DDD;
-	position: relative;
-	min-height: 100%;
-	margin: 0;
-	padding: 0;
-	/** margin-bottom: 2em; /** the height of the footer */
-}
-
-footer {
-	width: 100%;
-	background-color: #804040;
-	text-align: center;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	
-	height: 2.5em;
-	line-height: 2.5em; /** center the text vertically */
-	
-	border-top: 1px solid;
-	border-top-color: #FFF;
-}
-
-footer p {
-	font-size: 1.5em;
-	color: #FFF;
-	margin: 0;
-}
-
-footer a {
-	color: #FFF;
-	font-weight: bold;
-	text-decoration: none;
 }
 
 h1 {
-	font-size: 2.5em;
 	text-align: center;
-	margin: 0;
 }
 
 h2 {
-	font-size: 1.5em;
-	text-align: center;
-	margin: 0;
-}
-
-p {
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-#title {
-	background-color: #804040;
-	margin: 0;
-	padding: 0.75em;
-	padding-left: 2.5em;
-}
-
-#title p {
-	font-size: 2em;
-	margin: 0;
-	text-decoration: none;
-	color: white;
-}
-
-@media (max-width: 700px) {
-	h1 {
-		font-size: 1.25em;
-	}
-	h2 {
-		font-size: 1em;
-	}
-	#title p {
-		font-size: 1em;
-	}
-	footer p {
-		font-size: 1em;
-	}
-}
-
-#content-outer {
-	margin: 0 auto;
-	padding: 1em 2% 1em 2%;
-	max-width: 1400px;
-}
-
-#content-inner {
-	margin: 0 auto;
-	padding: 20px;
-	border-radius: 12px;
-	max-width: 95%;
-	background-color: #FFF;
-	overflow: hidden;
+	text-align: left;
 }
 
 img {
-	max-width: 100%; 
-	display: block;
+	max-width: 100%;
+	border: 1px solid transparent;
 }
 
-.gallery {
-	margin: 20px 5px 0 5px;
-	width: auto;
-	padding: 5px;
-	border: 2px dotted #AAA;
-	border-radius: 8px;
-	text-align: center;
-}
-
-.thumbnail {
-	margin: 5px;
-	border: 1px solid #CCC;
-	width: calc(100% - 10px);
-	display: inline-block;
-	vertical-align: top;
-}
-
-@media (min-width: 700px) {
-	.thumbnail {
-		width: calc(50% - 15px);
-	}
-}
-
-@media (min-width: 1100px) {
-	.thumbnail {
-		width: calc(33.33% - 15px);
-	}
-}
-
-.thumbnail:hover {
+img:hover {
 	border: 1px solid #777;
 }
 
-.thumbnail img {
-	width: 100%;
-}
-
 .iframe-outer {
-	margin: 5px;
 	position: relative;
 	max-width: 100%;
-	height: 0px;
-	padding-bottom: 56.25%;
+	padding-bottom: 56.25%; /* Magic fix to make video correct height */
 }
 
 iframe {
 	position: absolute;
-	left: 0;
-	top: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.thumbnail {
+	margin: 5px 0 5px 0;
+}
+
+blockquote {
+	border-left: 5px solid #BBB;
+	padding-left: 10px;
 }
