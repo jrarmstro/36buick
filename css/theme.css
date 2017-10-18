@@ -1,5 +1,6 @@
 body {
 	background-color: #DDD;
+	padding: 5px;
 }
 
 h1 {
@@ -19,14 +20,7 @@ img:hover {
 	border: 1px solid #777;
 }
 
-.iframe-outer {
-	position: relative;
-	max-width: 100%;
-	padding-bottom: 56.25%; /* Magic fix to make video correct height */
-}
-
 iframe {
-	position: absolute;
 	width: 100%;
 	height: 100%;
 }
