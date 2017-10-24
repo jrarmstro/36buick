@@ -1,0 +1,22 @@
+{
+  "name": "36buick",
+  "version": "1.0.0",
+  "description": "GitHub Pages hosting of [36buick.ca](http://www.36buick.ca), a simple webpage, originally selling a restored 1936 Buick, which now serves simply as a legacy webpage for the car.",
+  "main": "index.js",
+  "scripts": {
+  	"build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrarmstro/36buick.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrarmstro/36buick/issues"
+  },
+  "homepage": "https://github.com/jrarmstro/36buick#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
