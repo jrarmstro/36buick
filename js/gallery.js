@@ -1,6 +1,6 @@
-let img_path = "img/gallery/";
-let thumb_path = img_path + "/thumbs/";
-let img_types = /\.(jpe?g|png|gif)$/;
+const img_path = "img/gallery/";
+const thumb_path = img_path + "/thumbs/";
+const img_types = /\.(jpe?g|png|gif)$/;
 
 $.ajax({
 	url: img_path,
