@@ -1,0 +1,1 @@
+git subtree push -P public_html origin gh-pages
