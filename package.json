@@ -4,7 +4,7 @@
   "description": "GitHub Pages hosting of [36buick.ca](http://www.36buick.ca), a simple webpage, originally selling a restored 1936 Buick, which now serves simply as a legacy webpage for the car.",
   "main": "index.js",
   "scripts": {
-  	"build": "babel public_html/js/src -d public_html/js/dist"
+  	"build": "./node_modules/.bin/babel public_html/js/src/babel -d public_html/js/dist"
   },
   "repository": {
     "type": "git",
