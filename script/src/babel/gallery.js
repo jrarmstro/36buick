@@ -14,7 +14,7 @@ $.ajax({
 						<a href="${img_path}${val}" target="_blank">
 							<img src="${thumb_path}${val}"
 							     class="thumbnail"
-								 onerror="if (this.src != '${img_path}${val}') this.src='${img_path}${val}';">
+								 onerror="if (this.src !== '${img_path}${val}') this.src='${img_path}${val}';">
 						</a>
 					</div>
 				`)
