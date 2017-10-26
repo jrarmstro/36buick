@@ -14,14 +14,9 @@ img {
 	height: auto;
 	overflow: hidden;
 	border: 1px solid transparent;
-
 	&:hover {
 		border: 1px solid #777;
 	}
-}
-
-img:hover {
-	border: 1px solid #777;
 }
 
 iframe {
@@ -35,6 +30,8 @@ iframe {
 
 .thumbnail {
 	margin: 5px 0 5px 0;
+	width: 100%;
+	//height: (9 / 16) * 100%;
 }
 
 blockquote {
